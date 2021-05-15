@@ -8,6 +8,9 @@
     "build": "NODE_ENV=STAGING webpack",
     "deploy": "NODE_ENV=PRODUCTION webpack"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "author": "Gabriel Gianordoli",
   "license": "",
   "devDependencies": {
